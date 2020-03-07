@@ -1,0 +1,85 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?", "Welcome from IIIT", "IIIT Welcomes you"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you to the list of professors in IIIT bbsr, Their contact information and about them", "Offering support for Selection of Professors from IIIT BBSR for summer internship"],
+         "context": [""]
+        },
+        {"tag": "Director",
+         "patterns": ["Who is Director of IIIT BBSR", "Can you tell me the director of IIIT", "Give me contact information of IIIT bbsr Director" ],
+         "responses": ["The director of IIIT is Gopal Krishnan nayak you can contact him on 0674-30605-01 and email him at gopal@iiit-bbsr.ac.in"],
+         "context": [""]
+        },
+   {"tag": "Register",
+         "patterns": ["Who is register of IIIT", "Please provide me information about register of IIIT", "Contact details for register of IIIT"],
+         "responses": ["The register of IIIT is Ajit kumar dash you can contact him on 0674-30605-02 and email at ajit@iiit-bbsr.ac.in"],
+         "context": [""]
+        },
+        {"tag": "ComputerScience",
+         "patterns": ["Who are the faculties for computer science", "List of faculties in Computer science department", "Faculties who are in Computer science and engineering depaertment" ],
+         "responses": ["The professiors are:Dr. Gopal Krishna Nayak ,Ajit Kumar Das  ,Ajaya Kumar Dash,Dr. Anjali Mohapatra,Bharati Mishra, Sabyasachi Patra ,Dr. Saxena,Srichandan Shobhanayak     ,Dr. Suraj Sharma,Dr. Suvend Rup,Dr. Swati Vipsita ,Tapan Kumar Sahoo "],
+         "context": ["search_faculty_by_department_computer_science"]
+        },
+     
+        {"tag": "ElectricalandElectronics",
+         "patterns": ["who are faculties under electronics department","who are faculties under electrical department","which faculties teach electronics ","which faculties teach electrical"],
+         "responses": ["The professors are:Debani Prasad Mishra,Kshirod Kumar Rout  ,Saroj Kumar Mishra,Umamani Subudhi   ,Usharani Raut "],
+         "context": [""]
+        },
+        {"tag": "Electonicsandtelecommunication",
+         "patterns": ["Who are the faculties for Electronics and Telecomunication", "List of faculties in ETC department", "Faculties who are in electronins and telecommunication depaertment" ],
+         "responses": ["The faculties are:Ajith K. K.,Dr. Bijayananda Patnaik,Dr. Pradyut Kumar Biswal ,Rajat Kumar Giri ,Dr. Sanjeev Kumar Mishra,Srinivasarao Chintagunta,Subrata Kumar Mohanty,Surya Prakash Singh,Venkata Sridhar T "],
+         "context": [""]
+        },
+        {"tag": "MechanicalEnginnering",
+         "patterns": ["who teaches mechanics","Faculties under machanical department","list of faculties in mechanics department"],
+         "responses": ["The faculties are:Dr. Bamadev Sahoo,Dr. Biranchi Narayana Padhi"],
+         "context": [""]
+        },
+        {"tag": "Humanities",
+         "patterns": ["Professors who teach humanities","professors for humanities department","professors for humanity subject" ],
+         "responses": ["The professiors are:Jolly Dey ,Dr. Lipika Das ,Dr. Janendra Kumar Routray ,Dr. Tanutrushna Panigrahi   "],
+         "context": [""]
+        },
+        {"tag": "Basicscience",
+         "patterns": ["Who teaches basic science","who are professiors under basic science department","who teaches maths ,physics"],
+         "responses": ["The professiors are:Dr. Alok Ranjan Nayak,Dr. Biswajit Pradhan  ,Dr. Hiranmayee Satapathy,Dr. Kabita Kumari Satapathy ,Dr. Rupaj Kumar Nayak,Dr. Shanta Kumari Sunanda"],
+         "context": [""]
+        },
+        {"tag": "About",
+         "patterns": ["who i am?","can you guess who i am","can you tell something about me"],
+         "responses": ["Really hard to guess!But you may be a student of IIIT or the one who have desire to be in IIIT"],
+         "context": [""]
+        },
+   {"tag": "Introduce",
+         "patterns": ["who are you?","can you intoduce yourself","can you tell me something about yourself"],
+         "responses": ["Hi I am AYUSH ,a 2nd year btech graduate from IIIT bbsr and I am here to help you"],
+         "context": [""]
+    },
+     {"tag": "Contact",
+         "patterns": ["Can i get your number","please give me your contact details","please provide me your contact number"],
+         "responses": ["My contact number is 629121729 You can also send queries on b518015@iiit-bh.ac.in"],
+         "context": [""]
+   }
+   ]
+}
+
